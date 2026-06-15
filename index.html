@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pro Football Academy</title>
+        <link rel="icon" type="image/x-icon" href="images/pfaicon.png">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght,MONO@0,300..800,1;1,300..800,1&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Tilt+Warp&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    </head>
+    
+    <div class="navbar">
+        <a class="navtcolor" href="#">Home</a>
+        <a class="navtcolor" href="#explore">Explore</a>
+        <a class="navtcolor" href="#contact">contact</a>
+        <a class="navtcolor" href="#reviews">Reviews</a>
+        <a class="navtcolor" href="#socials">Socials</a>
+        <a class="navtcolor" href="https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures?country=GB&wtw-filter=ALL">LIVE: World Cup</a>
+    </div>
+    
+    <div class="hero-image">
+        <img src="images/hero.jpg" alt="Hero">
+    </div>
+    <hr class="divline">
+
+    <body>
+        <div class="offers" id="explore">
+            <h1 class="offer-title">Explore</h1>
+            <hr class="divline2">
+            <div class="sellings">
+                <div class="product1">
+                    <img src="images/model1.jpg">
+                    <a class="buy-btn1" href="#">Buy</a>
+                </div>
+
+                    <div class="product1">
+                        <img src="images/model2.jpg">
+                        <a class="buy-btn1" href="#">Buy</a>
+                    </div>
+                
+                    <div class="product1">
+                        <img src="images/model3.jpg">
+                        <a class="buy-btn1" href="#">Buy</a>
+                    </div>
+
+                    <div class="product1">
+                        <img src="images/model4.jpg">
+                        <a class="buy-btn1" href="#">Buy</a>
+                    </div>
+
+            </div>
+        </div>
+
+        <div class="sellings">
+            <div class="product1">
+                <img src="images/model5.jpg">
+                <a class="buy-btn1" href="#">Buy</a>
+            </div>
+
+                <div class="product1">
+                    <img src="images/model6.jpg">
+                    <a class="buy-btn1" href="#">Buy</a>
+                </div>
+            
+                <div class="product1">
+                    <img src="images/model7.jpg">
+                    <a class="buy-btn1" href="#">Buy</a>
+                </div>
+
+                <div class="product1">
+                    <img src="images/model8.jpg">
+                    <a class="buy-btn1" href="#">Buy</a>
+                </div>
+
+        </div>
+    </div>
+
+
+</div>
+
+        <div class="offers" id="contact">
+            <h1 class="offer-title">Contact</h1>
+            <hr class="divline3">
+            <div class="box1">
+                <form id="contactForm">
+
+  <label for="fname">First Name</label>
+  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+  <label for="lname">Last Name</label>
+  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+  <label for="country">Country</label>
+  <select id="country" name="country">
+    <option value="spain">Spain</option>
+    <option value="canada">Canada</option>
+    <option value="usa">USA</option>
+    <option value="uk">United Kingdom</option>
+  </select>
+
+  <label for="subject">Subject</label>
+  <textarea id="subject" name="subject" placeholder="Write something..." style="height:200px"></textarea>
+
+  <input type="submit" value="Submit">
+
+</form>
+
+<p id="message"></p>
+
+<script>
+document.getElementById("contactForm").addEventListener("submit", function(e) {
+    e.preventDefault(); // Stops page refresh
+    document.getElementById("message").textContent = "Message Sent!";
+});
+</script>
+            </div>
+        </div>
+
+        <div class="offers" id="reviews">
+            <h1 class="offer-title">Reviews</h1>
+            <hr class="divline4">
+
+            <div class="ratings">
+                <h3>★★★★★
+                    "Absolutely amazing service. Everything was easy to use and worked exactly as expected."</h3>
+                    <h3>★★★★★
+                        "Fast, reliable, and well designed. I'd definitely recommend it to others."</h3>
+                <h3>★★★★★
+                    "Exceeded my expectations. I'll be using it again in the future."</h3>        
+            </div>
+
+        </div>
+
+        <div class="offers" id="socials">
+            <h1 class="offer-title">Socials</h1>
+            <hr class="divline5">
+            <div class="socials">
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-tiktok"></i>
+            </div>
+        </div>
+    </body>
+
+</html>
